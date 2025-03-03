@@ -22,4 +22,4 @@
 *.tmproj
 .vscode/
 
-charts/prometheus-*/prometheus
+charts/kube-prometheus-stack-*/kube-prometheus-stack
