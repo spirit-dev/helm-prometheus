@@ -1228,7 +1228,7 @@ kube-prometheus-stack:
     defaultDashboardsEditable: true
 
     adminUser: admin
-    adminPassword: prom-operator
+    adminPassword: prom-operator # pragma: allowlist secret
 
     rbac:
       ## If true, Grafana PSPs will be created
@@ -3279,7 +3279,7 @@ kube-prometheus-stack:
 
     ## Set a Field Selector to filter watched secrets
     ##
-    secretFieldSelector: "type!=kubernetes.io/dockercfg,type!=kubernetes.io/service-account-token,type!=helm.sh/release.v1"
+    secretFieldSelector: "type!=kubernetes.io/dockercfg,type!=kubernetes.io/service-account-token,type!=helm.sh/release.v1" # pragma: allowlist secret
 
     ## If false then the user will opt out of automounting API credentials.
     ##
