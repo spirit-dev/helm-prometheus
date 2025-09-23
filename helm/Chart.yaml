@@ -13,9 +13,11 @@ dependencies:
 
 type: application
 
+# renovate: datasource=helm depName=kube-prometheus-stack repository=https://prometheus-community.github.io/helm-charts
 version: 69.5.2
 
-appVersion: v0.80.1
+# renovate: datasource=github-releases depName=prometheus/prometheus
+appVersion: "v0.80.1"
 
 keywords:
   - operator
