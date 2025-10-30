@@ -2837,7 +2837,7 @@ kube-prometheus-stack:
         image:
           registry: registry.k8s.io
           repository: ingress-nginx/kube-webhook-certgen
-          tag: v1.6.3 # latest tag: https://github.com/kubernetes/ingress-nginx/blob/main/images/kube-webhook-certgen/TAG
+          tag: v1.6.4 # latest tag: https://github.com/kubernetes/ingress-nginx/blob/main/images/kube-webhook-certgen/TAG
           sha: ""
           pullPolicy: IfNotPresent
         resources: {}
@@ -3906,7 +3906,7 @@ kube-prometheus-stack:
       image:
         registry: quay.io
         repository: prometheus/prometheus
-        tag: v3.7.2
+        tag: v3.7.3
         sha: ""
 
       ## Tolerations for use with node taints
