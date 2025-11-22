@@ -9,7 +9,7 @@ sources:
 dependencies:
   - name: kube-prometheus-stack
     repository: https://prometheus-community.github.io/helm-charts
-    version: 79.6.1
+    version: 79.7.1
 
 type: application
 
