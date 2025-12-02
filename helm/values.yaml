@@ -3906,7 +3906,7 @@ kube-prometheus-stack:
       image:
         registry: quay.io
         repository: prometheus/prometheus
-        tag: v3.7.3
+        tag: v3.8.0
         sha: ""
 
       ## Tolerations for use with node taints
